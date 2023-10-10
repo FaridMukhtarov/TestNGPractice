@@ -1,0 +1,5 @@
+Run > Edit Configurations > Listeners > +
+
+1. EmailableReporter
+2. FailedReporter
+3. Html
