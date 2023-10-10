@@ -1,8 +1,10 @@
+package firstDay;
+
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class LoginTest {
+public class CustomerTests {
 
     @BeforeTest
     public void setUp(){
@@ -10,8 +12,13 @@ public class LoginTest {
     }
 
     @Test
-    public void login(){
-        System.out.println("This is Login test");
+    public void searchCustomer(){
+        System.out.println("This is search customer test");
+    }
+
+    @Test
+    public void addCustomer(){
+        System.out.println("This is add customer test");
     }
 
     @AfterTest

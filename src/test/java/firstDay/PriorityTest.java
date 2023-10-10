@@ -1,3 +1,5 @@
+package firstDay;
+
 import org.testng.annotations.Test;
 
 public class PriorityTest {
