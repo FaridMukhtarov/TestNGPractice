@@ -1,0 +1,15 @@
+<suite name = "My Suite">
+    <test name = "groupingTest">
+
+        <groups>
+            <run>
+                <include name="Smoke"/>
+                <include name="Smoke, Regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="secondDay.GroupingTests"/>
+        </classes>
+    </test>
+</suite>
